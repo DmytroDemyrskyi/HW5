@@ -50,6 +50,6 @@ def students_generator(request):
             for student in saved_students
         ]
     )
-
+dfsgjkdsjgksbreakp
     response = f"Збережено {len(saved_students)} студентів. {student_info}"
     return HttpResponse(response)
