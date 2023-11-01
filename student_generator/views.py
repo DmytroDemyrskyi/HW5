@@ -44,7 +44,7 @@ def students_generator(request):
         student = Student.objects.create(**student_data)
         saved_students.append(student)
 
-    student_info = '\n'.join(
+    student_info = "\n".join(
         [
             f"<br>{student.first_name} {student.last_name} {student.birth_date}"
             for student in saved_students
